@@ -12,7 +12,7 @@
 
 ## 🌊 What Is This?
 
-This project applies high-dimensional data mining to the **Reef Life Survey (RLS) Australia Dataset** — over 700,000 observations across 10,705 surveys — to identify **Topological Anchors**: the specific species that hold reef ecosystems together through network connectivity rather than raw abundance.
+This project applies high-dimensional data mining to the **Reef Life Survey (RLS) Australia Dataset** - over 700,000 observations across 10,705 surveys - to identify **Topological Anchors**: the specific species that hold reef ecosystems together through network connectivity rather than raw abundance.
 
 Traditional marine conservation focuses on biomass and apex predators. This project challenges that paradigm by treating the reef as a **complex network** and using unsupervised machine learning to find the species that, if lost, would cause the entire system to unravel.
 
@@ -29,17 +29,17 @@ The analysis is structured around four research pillars that build toward a sing
 | **3. Ecological Fingerprinting** | Triangle counting & clustering coefficients across 26.9M network motifs | Structural resilience score per species |
 | **4. Topological Anchors** | Louvain community detection + Conservation Priority Index (CPI) | Regional priority leaderboard of the 20 most critical species |
 
-The final **Validation Handshake** synthesizes all four pillars using a proportional seat allocation formula to produce the **Topological Anchor Leaderboard** — a data-driven blueprint for reef protection.
+The final **Validation Handshake** synthesizes all four pillars using a proportional seat allocation formula to produce the **Topological Anchor Leaderboard** - a data-driven blueprint for reef protection.
 
 ---
 
 ## 🏆 Key Findings
 
-- **26.9 million structural triangles** mapped across the Australian reef network — a novel metric for ecosystem resilience
+- **26.9 million structural triangles** mapped across the Australian reef network - a novel metric for ecosystem resilience
 - **Global Clustering Coefficient of 0.7721**, meaning a 77.21% probability that a species' neighbors remain connected even after it is lost
 - Top indicator rule: **Chrysiptera notialis → Carcharhinus galapagensis** with a **Lift of 12.08** and 82.5% confidence
 - **20 Topological Anchors** identified across 4 biogeographic modules: Tropical North, Coral Sea, Temperate South, and Offshore Hubs
-- **Labroides dimidiatus** (Bluestreak Cleaner Wrasse) achieved the maximum possible PageRank of 1.0 despite being in the bottom 5% of abundance — the strongest validation of the network model
+- **Labroides dimidiatus** (Bluestreak Cleaner Wrasse) achieved the maximum possible PageRank of 1.0 despite being in the bottom 5% of abundance - the strongest validation of the network model
 
 ---
 
@@ -86,11 +86,11 @@ Runtime → Run All. Total runtime is approximately **8–12 minutes** depending
 ## 📦 Dependencies
 
 Key libraries used:
-- `networkx` — graph construction and PageRank
-- `mlxtend` — FP-Growth association rule mining
-- `python-louvain` — community detection
-- `pandas`, `numpy` — data processing
-- `matplotlib`, `seaborn` — visualization
+- `networkx` - graph construction and PageRank
+- `mlxtend` - FP-Growth association rule mining
+- `python-louvain` - community detection
+- `pandas`, `numpy` - data processing
+- `matplotlib`, `seaborn` - visualization
 
 Full list in [`requirements.txt`](requirements.txt).
 
@@ -98,7 +98,7 @@ Full list in [`requirements.txt`](requirements.txt).
 
 ## 📊 Dataset
 
-**Reef Life Survey (RLS) — Australia Ecosystem Subset**
+**Reef Life Survey (RLS) - Australia Ecosystem Subset**
 - Source: [AODN Portal](https://portal.aodn.org.au/)
 - Timespan: 2016–2026
 - Scale: 700,000+ observations, 1,424 species, 10,705 surveys
@@ -112,4 +112,4 @@ See [`data/README.md`](data/README.md) for exact download and setup instructions
 
 **Yash Patel**
 UIN: 131009796
-Data Mining & Analysis — Final Project
+Data Mining & Analysis - Final Project

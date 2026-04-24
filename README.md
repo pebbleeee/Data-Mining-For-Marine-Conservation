@@ -111,5 +111,4 @@ See [`data/README.md`](data/README.md) for exact download and setup instructions
 ## 👤 Author
 
 **Yash Patel**
-UIN: 131009796
 Data Mining & Analysis - Final Project
